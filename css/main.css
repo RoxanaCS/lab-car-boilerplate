@@ -1,1 +1,8 @@
-/* Los estilos de tu proyecto */
+header{
+  height: 5em;
+}
+.hero{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: center;
+}

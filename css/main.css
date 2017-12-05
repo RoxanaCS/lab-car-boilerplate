@@ -1,8 +1,96 @@
-header{
-  height: 5em;
+.list_menu{
+  padding-right: 3em !important;
+}
+.no-mg{
+  margin-right: 0;
+}
+.no-pad{
+  padding-right: 0;
+}
+.logo{
+  width: 8em;
+  padding-left: 2em;
 }
 .hero{
   background-image: url(../assets/images/taxi.jpg);
   background-size: cover;
+  background-position: bottom;
+}
+.box_register{
+  background-color: #F7B617;
+  margin-top: 10em;
+  margin-bottom: 20em;
+  padding: 1em 0 2em 2em;
+}
+.white-logo{
+  width: 4em;
+}
+h2, p, h3{
+  color: #fff;
+}
+.line{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.line::after {
+  content: " ";
+  display: inline-block;
+  width: 5em;
+  height: 0.05em;
+  background-color: #FFFFFF;
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.line::before{
+  content: " ";
+  display: inline-block;
+  width: 5em;
+  height: 0.05em;
+  background-color: #FFFFFF;
+  margin-top: 1%;
+  margin-right: 10%;
+}
+.phone{
+  background-color: #F7B617;
+  padding: 2em 0 2em 2em;
+}
+.boxPhone{
+  border-top: 0.1em solid #fff;
+  border-bottom: 0.1em solid #fff;
+  border-right: 0.1em solid #fff;
+  padding: 2em 0 2em 0;
+}
+.iPhone{
+  width: 20em;
+}
+.paragraphPhone{
+  font-size: 1.2em;
+}
+.registry{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
   background-position: center;
+}
+.box_conductor{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  padding: 7em 2em 8em 3em;
+}
+.boton{
+  background-color: #F7B617;
+  color: #ffff;
+}
+.rates{
+  background-color: #F7B617;
+}
+.mapa{
+  border: 0.1em solid #fff;
+}
+.map{
+  width:20em;
+  height: 20em;
+  background: #ffff;
+}
+footer{
+  background-color: #2B2B2B;
 }

@@ -1,3 +1,7 @@
+body{
+ overflow-x: hidden;
+ width: auto;
+}
 .list_menu{
   padding-right: 3em !important;
 }

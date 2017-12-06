@@ -1,7 +1,7 @@
-body{
+/*body{
  overflow-x: hidden;
  width: auto;
-}
+}*/
 .list_menu{
   padding-right: 3em !important;
 }
@@ -12,7 +12,7 @@ body{
   padding-right: 0;
 }
 .logo{
-  width: 8em;
+  width: 80%;
   padding-left: 2em;
 }
 .hero{
@@ -27,14 +27,11 @@ body{
   padding: 1em 0 2em 2em;
 }
 .white-logo{
-  width: 4em;
+  width: 5em;
+  padding-top: 1.8em;
 }
-h2, p, h3{
+h2, p, h3, h4{
   color: #fff;
-}
-.line{
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 .line::after {
   content: " ";
@@ -66,10 +63,13 @@ h2, p, h3{
   padding: 2em 0 2em 0;
 }
 .iPhone{
-  width: 20em;
+  width: 70%;
 }
 .paragraphPhone{
   font-size: 1.2em;
+}
+.paragraph{
+  padding-top: 1em;
 }
 .registry{
   background-image: url(../assets/images/conduce.jpg);
@@ -97,7 +97,7 @@ h2, p, h3{
 }
 input[type=text]{
   padding-left: 1em;
-  width: 20em;
+  width: 15em;
   color: #fff;
   line-height: 2em;
   border: 0.1em solid #fff;
@@ -128,4 +128,36 @@ input[type=text]{
 }
 footer{
   background-color: #2B2B2B;
+  padding-top: 6em;
+  padding-bottom: 5em;
+}
+.logo-footer{
+  width: 8em;
+}
+.footer1 {
+  float: left;
+  list-style: none;
+  text-align: left;
+}
+.footer1 li a{
+  text-decoration: none;
+  line-height: 3em;
+  color: white;
+}
+.footer1 li a:hover{
+  line-height: 3em;
+  color: #F7B617;
+  text-decoration: underline;
+}
+.icon-footer{
+  color: #FFFF;
+  padding-top: 20em;
+}
+.logo-app{
+  width: 10em;
+  padding-top: 13em;
+  padding-bottom: 2em;
+}
+.logo-app2{
+  width: 10em;
 }

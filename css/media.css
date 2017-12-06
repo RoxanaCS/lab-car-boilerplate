@@ -1,0 +1,13 @@
+@media (max-width:400px){
+  .boxPhone{
+    border: 0.1em solid #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  footer{
+    padding-top: 0.5em;
+    padding-bottom: 0;
+  }
+  .footer1{
+    padding-left: 0;
+  }

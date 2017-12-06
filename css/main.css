@@ -1,7 +1,7 @@
-/*body{
+body{
  overflow-x: hidden;
  width: auto;
-}*/
+}
 .list_menu{
   padding-right: 3em !important;
 }
@@ -19,7 +19,7 @@ div.container-fluid{
 .no-pad{
   padding-right: 0;
   padding-left: 0;
-}*/
+}
 .logo{
   width: 80%;
   padding-left: 2em;

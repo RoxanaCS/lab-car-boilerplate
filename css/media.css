@@ -1,4 +1,7 @@
-@media (max-width:400px){
+@media (max-width:450px){
+  .white-logo{
+    padding-top: 0;
+  }
   .boxPhone{
     border: 0.1em solid #fff;
     padding: 1em;
@@ -10,4 +13,12 @@
   }
   .footer1{
     padding-left: 0;
+  }
+  .icon-footer{
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+  .logo-app{
+    padding-top: 0;
+    padding-bottom: 2em;
   }

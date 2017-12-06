@@ -5,12 +5,21 @@
 .list_menu{
   padding-right: 3em !important;
 }
+/*
+div.row{
+   margin-right: 0px !important;
+}
+div.container-fluid{
+   padding-right: 0px !important;
+}
+*/
 .no-mg{
   margin-right: 0;
 }
 .no-pad{
   padding-right: 0;
-}
+  padding-left: 0;
+}*/
 .logo{
   width: 80%;
   padding-left: 2em;
@@ -30,7 +39,7 @@
   width: 5em;
   padding-top: 1.8em;
 }
-h2, p, h3, h4{
+h2, p, h3{
   color: #fff;
 }
 .line::after {
@@ -63,7 +72,7 @@ h2, p, h3, h4{
   padding: 2em 0 2em 0;
 }
 .iPhone{
-  width: 70%;
+  width: 60%;
 }
 .paragraphPhone{
   font-size: 1.2em;

@@ -5,14 +5,6 @@ body{
 .list_menu{
   padding-right: 3em !important;
 }
-/*
-div.row{
-   margin-right: 0px !important;
-}
-div.container-fluid{
-   padding-right: 0px !important;
-}
-*/
 .no-mg{
   margin-right: 0;
 }
@@ -23,6 +15,10 @@ div.container-fluid{
 .logo{
   width: 80%;
   padding-left: 2em;
+}
+.user-icon{
+  width: 60%;
+  padding-left: 40%;
 }
 .hero{
   background-image: url(../assets/images/taxi.jpg);
